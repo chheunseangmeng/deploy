@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+body{
+    background: #fafafa;  
+}
+nav{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li:hover{
+    background: pink;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    color: #000;
+}
+.active-link{
+    background: pink;
+}
+.active-link:hover{
+    background: pink;
+}
+header{
+    background: #ffff;
+    padding: 20px;
+    height: 40vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+}
+.card{
+    text-align: center;
+    background: #ffff;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.4);
+}
+.card-full-card{
+    width: 89%;
+    background: #fff;
+    height: 200px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.4);
+    padding: 10px;
+}
+.card--full-card{
+    background: #fff;
+    padding: 10px;
+    height: 150px;
+    width: 85%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.4);
+}
+.card--full-card:nth-child(2){
+    margin-bottom: 70px;
+}
+caption{
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+}
+table{
+    border-collapse: collapse;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 60%;
+    border: none;
+    color: #fff;
+    margin-bottom: 20px;
+}
+th,td{
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+th{
+    border-bottom: 1px solid #fff;
+    border-right: none;
+}
+td{
+    border: none;
+}
+th:nth-child(1) ,td:nth-child(1){
+    background:#04bade;
+}
+th:nth-child(2) ,td:nth-child(2){
+    background: #0496c7;
+}
+th:nth-child(3) ,td:nth-child(3){
+    background:#006ca5;
+}
+th:nth-child(4) ,td:nth-child(4){
+    background: #02367b;
+}
